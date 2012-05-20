@@ -26,11 +26,17 @@ PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.
 PRODUCT_PACKAGES := \
     Camera
 
+# CrespoParts
+PRODUCT_PACKAGES := \
+    CrespoParts
+
 # Live Wallpapers
 PRODUCT_PACKAGES += \
         LiveWallpapers \
         LiveWallpapersPicker \
-        VisualizationWallpapers \
+	Galaxy4 \
+	HoloSpiralWallpaper \
+	PhaseBeam \
         librs_jni
 
 # Inherit from those products. Most specific first.
